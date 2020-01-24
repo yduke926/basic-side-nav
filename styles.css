@@ -42,6 +42,10 @@ i {
     padding: 0 .5rem;
 }
 
+.nav-btn {
+    display: none;
+}
+
 .nav-link {
     padding: 3rem 0rem;
 
@@ -70,6 +74,7 @@ a:hover {
         height: 2px;
         width: 4.5rem;
         margin: 4rem;
+        cursor: pointer;
     }
 
     .nav-btn::before,
